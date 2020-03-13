@@ -21,8 +21,6 @@
 #################################
 # class Vehicle is the base class
 class Vehicle:
-    def __init__(self, name):
-        self.name = name
         pass
 
 #################################
@@ -30,40 +28,28 @@ class Vehicle:
 
 # subClass of Vehicle
 class FlightVehicle(Vehicle):
-    def __init__(self, name):
-        super().__init__(name)
         pass
 
 class GroundVehicle(Vehicle):
-    def __init__(self, name):
-        super().__init__(name)
         pass
 #################################
 #################################
 
 # subClass of FlightVehicle
 class Starship(FlightVehicle):
-    def __init__(self, name):
-        super().__init__(name)
         pass
 
 
 class Airplane(FlightVehicle):
-    def __init__(self, name):
-        super().__init__(name)
         pass
 
 ################################
 ################################
 # subClass of GroundVehicle
 class Car(GroundVehicle):
-    def __init__(self, name):
-        super().__init__(name)
         pass
 
 
 class Motorcycle(GroundVehicle):
-    def __init__(self, name):
-        super().__init__(name)
         pass
 ################################
